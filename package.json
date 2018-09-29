@@ -1,0 +1,27 @@
+{
+  "name": "progresspie",
+  "version": "1.0.0",
+  "description": "easy pie show progress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aisriver/progresspie.git"
+  },
+  "keywords": [
+    "pie",
+    "pies",
+    "progress",
+    "show",
+    "easy",
+    "progresspie"
+  ],
+  "author": "Jared",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aisriver/progresspie/issues"
+  },
+  "homepage": "https://github.com/aisriver/progresspie#readme"
+}
