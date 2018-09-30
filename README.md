@@ -11,23 +11,17 @@ import Progresspie from 'progresspie';
 
 - use 1
 
-<Progresspie
-    percent={45}
-    width="100px"
-    height="100px"
-    backColor="#655"
-    percentColor="yellowgreen"
-/>
+<div id="myPie"></div>
 
-- use 2
+var myPie = progresspie.init(document.getElementById("myPie"));
 
-var myPie = Progresspie({ 
-        percent: 45,
-        width: "100px",
-        height: "100px",
-        backColor: "#655",
-        percentColor: "yellowgreen",
-    });
+myPie.setOption({ 
+    percent: 45, 
+    width: "100px", 
+    height: "100px", 
+    backColor: "#655",
+    percentColor: "yellowgreen",
+});
 
 ### github
 [Jared](https://github.com/aisriver/progresspie.git)
