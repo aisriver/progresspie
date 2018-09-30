@@ -1,6 +1,6 @@
 {
   "name": "progresspie",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "easy pie show progress",
   "main": "index.js",
   "scripts": {

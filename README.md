@@ -9,12 +9,13 @@ Easy show the progress by dom pie.
 ## step 2
 import Progresspie from 'progresspie';
 
-- use 1
+- use
 
-<div id="myPie"></div>
+`<div id="myPie"></div>`
 
-var myPie = progresspie.init(document.getElementById("myPie"));
+var myPie = Progresspie.init(document.getElementById("myPie"));
 
+<pre>
 myPie.setOption({ 
     percent: 45, 
     width: "100px", 
@@ -22,6 +23,7 @@ myPie.setOption({
     backColor: "#655",
     percentColor: "yellowgreen",
 });
+</pre>
 
 ### github
 [Jared](https://github.com/aisriver/progresspie.git)
