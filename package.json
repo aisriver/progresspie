@@ -1,7 +1,7 @@
 {
   "name": "progresspie",
-  "version": "1.0.2",
-  "description": "easy pie show progress",
+  "version": "1.0.3",
+  "description": "DOM 占比饼图的简单实现",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
